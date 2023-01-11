@@ -1,0 +1,25 @@
+.main-div-fav{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.fav-card{
+flex: 0 0 auto;
+box-shadow: 0 3px 1px -2px rgb(0 0 0 / 16%), 0 2px 2px 0 rgb(0 0 0 / 11%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+}
+
+
+
+::-webkit-scrollbar {
+    width: 4px !important;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 20px;
+  }
